@@ -29,9 +29,9 @@
     <url>http://wso2.com</url>
 
     <scm>
-        <url>https://github.com/wso2/carbon-secvault.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/carbon-secvault.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/carbon-secvault.git</connection>
+        <url>https://github.com/charwliu/carbon-secvault.git</url>
+        <developerConnection>scm:git:https://github.com/charwliu/carbon-secvault.git</developerConnection>
+        <connection>scm:git:https://github.com/charwliu/carbon-secvault.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -187,11 +187,11 @@
         <carbon.secure.vault.package.export.version>5.0.0</carbon.secure.vault.package.export.version>
 
         <!-- Carbon dependencies -->
-        <carbon.utils.version>1.2.1</carbon.utils.version>
+        <carbon.utils.version>1.2.2</carbon.utils.version>
         <carbon.utils.package.import.version.range>[1.0.0, 2.0.0)</carbon.utils.package.import.version.range>
 
         <!-- Dependencies -->
-        <slf4j.api.version>1.7.12</slf4j.api.version>
+        <slf4j.api.version>1.7.25</slf4j.api.version>
         <equinox.osgi.version>3.11.0.v20160603-1336</equinox.osgi.version>
         <equinox.osgi.services.version>3.5.100.v20160504-1419</equinox.osgi.services.version>
         <org.snakeyaml.version>1.17</org.snakeyaml.version>
@@ -205,6 +205,6 @@
         <!-- Maven plugin versions -->
         <maven.source.plugin.version>3.0.1</maven.source.plugin.version>
         <maven.java.doc.plugin.version>2.10.4</maven.java.doc.plugin.version>
-        <carbon.feature.plugin.version>3.1.0</carbon.feature.plugin.version>
+        <carbon.feature.plugin.version>3.1.1</carbon.feature.plugin.version>
     </properties>
 </project>
